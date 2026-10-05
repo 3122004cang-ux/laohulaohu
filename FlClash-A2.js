@@ -72,7 +72,7 @@ const main = (config) => {
 
     "enhanced-mode": "fake-ip",
 
-    "fake-ip-range": "172.19.0.1/24",
+    "fake-ip-range": "172.19.0.1/16",
 
     "fake-ip-filter": [
       "+.lan",
@@ -1561,10 +1561,7 @@ const main = (config) => {
 
     "GEOSITE,cn,国内直连",
 
-    // No `no-resolve` here on purpose: bare-IP connections (common in
-    // payment SDKs and HTTPDNS clients) must still be reverse-checked so
-    // they resolve to the direct group instead of falling through.
-    "GEOIP,cn,国内直连",
+    "GEOIP,cn,国内直连,no-resolve",
 
 
     // --------------------------------------------------------------
