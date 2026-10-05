@@ -106,20 +106,20 @@ const main = (config) => {
     ],
 
     "nameserver": [
-      "https://dns.alidns.com/dns-query",
-      "https://doh.pub/dns-query"
+      "223.5.5.5",
+      "119.29.29.29"
     ],
 
     "nameserver-policy": {
 
       "geosite:cn": [
-        "https://dns.alidns.com/dns-query",
-        "https://doh.pub/dns-query"
+        "223.5.5.5",
+        "119.29.29.29"
       ],
 
       "geosite:private": [
-        "https://dns.alidns.com/dns-query",
-        "https://doh.pub/dns-query"
+        "223.5.5.5",
+        "119.29.29.29"
       ],
 
       "geolocation-!cn": [
@@ -130,13 +130,13 @@ const main = (config) => {
     },
 
     "proxy-server-nameserver": [
-      "https://dns.alidns.com/dns-query",
-      "https://doh.pub/dns-query"
+      "223.5.5.5",
+      "119.29.29.29"
     ],
 
     "direct-nameserver": [
-      "https://dns.alidns.com/dns-query",
-      "https://doh.pub/dns-query"
+      "223.5.5.5",
+      "119.29.29.29"
     ],
 
     "fallback": [
